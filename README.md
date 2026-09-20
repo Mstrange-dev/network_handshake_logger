@@ -1,2 +1,1 @@
-# network_handshake_logger
-A low-level Python socket server for capturing TCP handshakes, auditing connection metadata, and exploring OS-level interface binding.
+Network Handshake & Connection Logger is a systems-level networking utility built from scratch using Python's native socket library. Designed to explore interface isolation (127.0.0.1 vs. 0.0.0.0), kernel-level blocking behavior via accept(), and raw TCP handshake mechanics. It captures source IPs, destination ports, and precise timestamps, serving as a foundational baseline for custom intrusion detection systems and network monitors.
